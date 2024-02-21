@@ -13,6 +13,7 @@ public class AdapterRunner implements CommandLineRunner {
         UserData user = new UserData();
         user.getData(info);
 
-        System.out.println(user);
+        System.out.println(user + "\n");
+
     }
 }
